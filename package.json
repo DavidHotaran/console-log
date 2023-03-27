@@ -1,0 +1,16 @@
+{
+  "name": "console-log",
+  "version": "1.0.0",
+  "description": "CLI to discover any console.log() statements that exist BEFORE your push to prod",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js peek -d dir1 --all"
+  },
+  "keywords": ["CLI", "console", "console.log"],
+  "author": "David Hotaran",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^10.0.0"
+  }
+}
