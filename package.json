@@ -4,7 +4,8 @@
   "description": "CLI to discover any console.log() statements that exist BEFORE your push to prod",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js peek -d dir1 --all"
+    "start": "node index.js peek -d dir1",
+    "help": "node index.js peek --help"
   },
   "keywords": ["CLI", "console", "console.log"],
   "author": "David Hotaran",
